@@ -1,3 +1,10 @@
+"""
+Author: Deven Kumar
+Date Posted: May 16, 2020
+
+If you are going to use this code, please cite me.
+"""
+
 from random import randrange
 import time
 
