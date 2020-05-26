@@ -128,6 +128,8 @@ def main():
                     if blackjack:
                         print("Blackjack!")
                         new_balance = new_balance + (2.5 * int(bet))
+                    else:
+                        new_balance = new_balance + (2 * int(bet))
                     chips = new_balance
                 elif 22 > sum(dealer_hand) > sum(hand) or sum(hand) > 21:
                     print("Dealer is standing at %d" % sum(dealer_hand))
